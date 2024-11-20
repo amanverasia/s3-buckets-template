@@ -74,7 +74,7 @@ if __name__ == "__main__":
     s3_manager.list_objects()
 
     # Upload a file
-    s3_manager.upload_file("path/to/local/file.txt", "uploaded_file.txt")
+    #s3_manager.upload_file("path/to/local/file.txt", "uploaded_file.txt")
 
     # Download a file
-    s3_manager.download_file("uploaded_file.txt", "path/to/download/file.txt")
+    #s3_manager.download_file("uploaded_file.txt", "path/to/download/file.txt")
